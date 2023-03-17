@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <!-- the entire body must be written by student -->
+    <h1>HTML Feedback Form</h1>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+    <form action="">
+      <div>
+        <label for="name">name</label>
+        <input type="text" minlength="3" maxlength="50" id="name" />
+      </div>
+      <div>
+        <label for="portfolio">portfolio</label>
+        <input type="url" name="portfolio" id="portfolio" />
+      </div>
+      <div>
+        <label for="NameofPortfolio"> Name of Portfolio</label>
+        <input type="text" id="portfolioname" name="NameofPortfolio" />
+      </div>
+      <div>
+        <label for="favcolor">favColor</label>
+        <input type="color" id="favcolor" />
+      </div>
+      <div>
+        <label for="likeness">likeness</label>
+        <input type="range" min="0" maxlength="100" />
+      </div>
+    </form>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
